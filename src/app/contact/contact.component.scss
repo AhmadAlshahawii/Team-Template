@@ -1,0 +1,124 @@
+@import 'colors';
+
+.contact
+{
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 135px;
+}
+
+.text-div h2
+{
+    font-family: $mainFont;
+    font-size: 42px;
+    color: $forthFontColor;
+}
+
+.text-div h4
+{
+    font-family: $mainFont;
+    font-size: 24px;
+    color: $forthFontColor;
+    padding-bottom: 30px;
+}
+.myDiv span
+{
+    color: $forthFontColor;
+}
+
+.myPadding
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 280px;
+}
+
+
+
+.span1 a
+{
+    color: $thirdFontColor;
+}
+.myList 
+{
+    list-style: none;
+}
+.myList li
+{
+    font-size: 16px;
+    border: 1px solid $forthFontColor;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 5px;
+}
+.myList i
+{
+    margin-top: 16px;
+}
+.myList li:hover
+{
+    background-color: $secFontColor;
+    border-color: $secFontColor;
+    cursor: pointer;
+}
+.myList a
+{
+    color: #fff;
+}
+.p1
+{
+    font-family: $mainFont;
+    color: $forthFontColor;
+    padding: 5px 0px;
+}
+
+.myInp
+{
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid $forthFontColor;
+    margin-bottom: 15px;
+}
+.msg
+{
+    padding-bottom: 70px;
+}
+.sub-btn
+{
+    background-color: transparent;
+    border: 1px solid $forthFontColor;
+    border-radius: 0;
+    color: #fff;
+    padding: 5px 20px;
+    margin-top: 20px;
+    transition: all 0s;
+}
+.sub-btn:hover
+{
+    background-color: $secFontColor;
+    border-color: $secFontColor;
+}
+
+.alrt
+{
+    background-color: #9c2b2e;
+    border-color: #e84e4f;
+    color: #e84e4f;
+    position: absolute;
+    right: 50px;
+    top: -12px;
+}
+
+.alrt2
+{
+    background-color: #9c2b2e;
+    border-color: #e84e4f;
+    color: #e84e4f;
+    position: absolute;
+    right: 50px;
+    top: 41px;
+}
+

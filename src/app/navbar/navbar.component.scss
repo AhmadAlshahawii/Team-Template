@@ -1,0 +1,32 @@
+
+@import 'colors';
+
+.myNavbar
+{
+    background-color: #ec3237;
+    transition: all 0.5s;
+}
+.myLogo
+{
+    color: $mainFontColor;
+    font-size: 18px;
+    font-family: $mainFont;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.myLogo:hover
+{
+    color: $thirdFontColor;
+}
+
+.myLinks a
+{
+    color: $mainFontColor;
+    padding-left: 25px;
+    font-family: $mainFont;
+}
+.myLinks a:hover
+{
+    color: $thirdFontColor;
+}

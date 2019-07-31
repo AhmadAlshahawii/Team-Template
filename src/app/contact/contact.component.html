@@ -1,0 +1,71 @@
+<section class="contact" id="contact">
+  <div class="container-fluid pt-5 text-center text-div">
+      <h2 class="text-uppercase font-weight-bold">contact us</h2>
+      <h4>Get in touch for more updates</h4>
+  </div>
+
+  <div class="container-fluid myPadding">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 myDiv ">
+        <span class="span1">E: <a href="#">hello@ui.com</a></span><br>
+        <span>M: +996 XXX XXXX</span>
+
+        <p class="p1">Drop us a email with your Gamer Nick and we will schedule your Live match with one of our clan member.</p>
+
+        <p class="p1">Game On - GO PRO</p>
+        
+        <div class="text-justify">
+        <ul class="row myList">
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitch"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-vimeo-v"></i></a>
+          </li>
+        </ul>
+      </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 myDiv ">
+        <input ngModel #userName='ngModel' (change)=getInfo(userName) required minlength="3"
+        type="text" class="form-control myInp" placeholder="Enter Name" name="userName">
+        <div *ngIf="userName.touched && userName.invalid" class="alert alrt">
+          <div *ngIf="userName.errors.required">Name required</div>
+          <div *ngIf="userName.errors.minlength">Name must be 3 letters or more</div>
+        </div>
+        
+        <input ngModel #userEmail='ngModel' (change)=getInfo(userEmail) required email
+        type="text" class="form-control myInp" placeholder="Enter E-mail" name="userEmail">
+        <div *ngIf="userEmail.touched && userEmail.invalid" class="alert alrt2">
+          <div *ngIf="userEmail.errors.required">Email required</div>
+          <div *ngIf="userEmail.errors.email">mail must include @</div>
+        </div>
+        
+        <input class="form-control myInp msg" placeholder="Enter Message">
+        <button class="btn sub-btn">Submit</button>
+      </div>
+      
+
+    </div>
+  </div>
+
+
+  
+</section>
+
+
+
+
+
