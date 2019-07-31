@@ -1,6 +1,17 @@
-# App1
+# Team Template
+Team Template is a responsive template made by Angular.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+![game](https://user-images.githubusercontent.com/48655469/62249795-f3c96e00-b3f3-11e9-9e1d-8b282df0d424.png)
+
+## Technologies used
+* Angular7+
+* Routing
+* SASS
+* TypeScript
+
+## Features
+* High resolution Support
+* Responsive design
 
 ## Development server
 
